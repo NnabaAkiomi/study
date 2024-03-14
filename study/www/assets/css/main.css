@@ -386,6 +386,10 @@ body {
   font-feature-settings: "palt" 1;
 }
 
+.header__inner {
+  background: #ffa;
+}
+
 .header__inner--item {
   list-style: none;
 }/*# sourceMappingURL=main.css.map */
