@@ -36,32 +36,138 @@
   <link id="main-css" rel="stylesheet" href="/study/www/assets/css/main.css">
   <link rel="stylesheet" href="src/scss/header.css">
   <link rel="stylesheet" href="src/scss/header.scss">
+  <link rel="stylesheet" href="src/scss/mv.scss">
+  <link rel="stylesheet" href="src/scss/mv.css">
+  <link rel="stylesheet" href="src/scss/about.scss">
+  <link rel="stylesheet" href="src/scss/about.css">
+  <link rel="stylesheet" href="src/scss/news.scss">
+  <link rel="stylesheet" href="src/scss/news.css">
+  <link rel="stylesheet" href="src/scss/event.scss">
+  <link rel="stylesheet" href="src/scss/event.css">
+
   <script type="module" src="/assets/js/main.js"></script>
 </head>
 
 <body>
-  <header class="header__inner">
-<!-- ここにヘッダーを書く -->
-<div class="header__inner--nav">
-    <div class="header__inner--logo">
-      <img src="assets/images/fv-logo2020.png" alt="フロンティアビジョンスタジオロゴ" width="382" height="42">
+  <header class="heading__inner">
+
+<!-- ヘッダー -->
+<div class="heading__inner--nav">
+
+    <div class="heading__inner--logo">
+      <img class="fv__logo" src="assets/images/fv-logo2020.png" alt="フロンティアビジョンスタジオロゴ" width="382" height="42">
     </div>
-      <ul class="header__inner--list">
-        <li class="header__inner--item">◯◯について</li>
-        <li class="header__inner--item">お知らせ</li>
-        <li class="header__inner--item">イベント</li>
-        <li class="header__inner--item">コラム</li>
-        <li class="header__inner--item">交通アクセス</li>
-        <li class="header__inner--item">お問い合わせ</li>
+
+      <ul class="heading__inner--list">
+        <li class="heading__inner--item">◯◯について</li>
+        <li class="heading__inner--item">お知らせ</li>
+        <li class="heading__inner--item">イベント</li>
+        <li class="heading__inner--item">コラム</li>
+        <li class="heading__inner--item">交通アクセス</li>
+        <li class="heading__inner--item">お問い合わせ</li>
       </ul>
     </div>
   </header>
 
-  <main>
-    <section class="main-fv">
-      <img src="assets/images/mv.jpg" alt="" width="1350" height="530">
+  <main class="p__body--main">
+
+<!-- メインビジュアル -->
+    <section class="p__mv--bg">
+
+      <img class="mv__bg--img" src="assets/images/mv.jpg" alt="" width="1350" height="530">
+
+      <h1 class="mv__bg--copy">キャッチコピーが入ります。<br>
+          キャッチコピーが入ります。
+      </h1>
     </section>
 
+<!-- 〇〇について -->
+    <section class="p__about">
+
+      <h2 class="c__title--main">
+        <span class="c__title--sub"><span class="c__title-main-blue">A</span>bout</span>〇〇について   
+      </h2>
+
+      <p class="c__about--text">
+        デジタルソリューション学科では、プログラマーやエンジニアといったIT人材の養成だけではなく、ビジネスの現場でデジタルの知識、知見、技術を使いこなし、地域のさまざまな産業や企業の発展に寄与できるデジタルビジネスパーソンを養成します。
+      </p>
+
+      <div class="c__panel--img">
+        <img class="c__panel--item" src="assets/images/About-image-1.jpg" alt="" width="370" height="247">
+        <img class="c__panel--item" src="assets/images/About-image-2.jpg" alt="" width="370" height="247">
+        <img class="c__panel--item" src="assets/images/About-image-3.jpg" alt=""width="370" height="247">
+      </div>
+    </section>
+
+    <!-- お知らせ・イベント -->
+    <section class="p__news--event">
+
+      <!-- お知らせ -->
+      <div class="c__news">
+
+        <h2 class="c__title--main c__title--news">
+          <span class="c__title--sub"><span class="c__title-main-blue">N</span>ews</span>お知らせ   
+        </h2>
+
+        <div class="c__box">
+
+          <ul class="c__list">
+
+            <li class="c__item">
+              <span class="c__news--date">2024.01.01</span>年末年始休業日のお知らせ
+            </li>
+            <li class="c__item">
+              <span class="c__news--date">2024.01.01</span>年末年始休業日のお知らせ
+            </li>
+            <li class="c__item">
+              <span class="c__news--date">2024.01.01</span>年末年始休業日のお知らせ
+            </li>
+            <li class="c__item">
+              <span class="c__news--date">2024.01.01</span>年末年始休業日のお知らせ
+            </li>
+            <li class="c__item">
+              <span class="c__news--date">2024.01.01</span>年末年始休業日のお知らせ
+            </li>
+            <li class="c__item">
+              <span class="c__news--date">2024.01.01</span>年末年始休業日のお知らせ
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- イベント -->
+      <div class="c__event">
+
+        <h2 class="c__title--main">
+          <span class="c__title--sub"><span class="c__title-main-blue">E</span>vent</span>イベント   
+        </h2>
+
+        <div class="c__box">
+
+          <ul class="c__list">
+
+            <li class="c__item">
+              <span class="c__event--date">2024.01.01</span>年末年始休業日のお知らせ
+            </li>
+            <li class="c__item">
+              <span class="c__event--date">2024.01.01</span>年末年始休業日のお知らせ
+            </li>
+            <li class="c__item">
+              <span class="c__event--date">2024.01.01</span>年末年始休業日のお知らせ
+            </li>
+            <li class="c__item">
+              <span class="c__event--date">2024.01.01</span>年末年始休業日のお知らせ
+            </li>
+            <li class="c__item">
+              <span class="c__event--date">2024.01.01</span>年末年始休業日のお知らせ
+            </li>
+            <li class="c__item">
+              <span class="c__event--date">2024.01.01</span>年末年始休業日のお知らせ
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer>

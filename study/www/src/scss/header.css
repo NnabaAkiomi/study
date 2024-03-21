@@ -1,20 +1,30 @@
-.header__inner--nav {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.heading__inner--nav {
   background: #fff;
   display: flex;
   height: 100px;
 }
-.header__inner--nav .header__inner--logo {
+.heading__inner--nav .heading__inner--logo {
   display: flex;
   align-items: center;
   margin-left: 40px;
 }
-.header__inner--nav .header__inner--list {
+.heading__inner--nav .heading__inner--logo .fv__logo {
+  width: 100%;
+  height: auto;
+}
+.heading__inner--nav .heading__inner--list {
   display: flex;
   margin: 0 0 0 auto;
   padding-right: 90px;
 }
-.header__inner--nav .header__inner--list .header__inner--item {
+.heading__inner--nav .heading__inner--list .heading__inner--item {
   padding: 10px 20px;
   display: flex;
   align-items: center;
+  font-weight: bold;
 }/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,36 @@
+$blue: #00f;
+
+.p__about{
+    padding-top: 100px;
+
+    .c__about--text{
+        width: 770px;
+        margin: 0 auto;
+    }
+}
+
+// タイトル
+.c__title--main{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+
+    .c__title-main-blue{
+     color: $blue;
+    }
+
+    .c__title--sub{
+     font-size: 48px;
+     margin-right: 40px;
+    }
+ }
+
+.c__panel--img{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 55px;
+    width: 1180px;
+    margin: 0 auto;
+}
+
+

@@ -1,0 +1,19 @@
+$white: #fff;
+
+.p__mv--bg{
+    position: relative;
+    .mv__bg--img{
+        width: 100%;
+        height: auto;
+    }
+
+    .mv__bg--copy{
+        position: absolute;
+        left: 390px;
+        bottom: 100px;
+        font-size: 50px;
+        color: $white;
+        font-weight: normal;
+        line-height: 90px;
+    }
+}
