@@ -1,12 +1,73 @@
+$white: #fff;
+$blue: #151a8c;
+
 .p__news--event{
     display: flex;
-    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
     padding-top: 110px;
 }
 .c__news{
     width: 50%;
+    padding-right: 40px;
 }
 
-.c__title--news{
+.c__title--left{
     text-align: left;
+}
+
+// お知らせ・イベント一覧
+.c__box{
+    .c__list{
+        .c__item{
+            border-top: 1px solid #dddddd;
+            padding: 18px 0;
+            list-style: none;
+            position: relative;
+            &::before{
+                content: '';
+                width: 17px;
+                height: 18px;
+                background-image: url(../../assets/images/arrow-icon-blue.png);
+                background-repeat: no-repeat;
+                background-size: contain;
+                vertical-align: middle;
+                position: absolute;
+                top: 50%;
+                right: 10px;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+}
+
+// ボタン
+.c__button{
+    background: $blue;
+    width: 270px;
+    height: 60px;
+    border-radius: 30px;
+    margin: 60px auto auto auto;
+    position: relative;
+    &::before{
+        content: '';
+        width: 17px;
+        height: 18px;
+        background-image: url(../../assets/images/arrow-icon-white.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        vertical-align: middle;
+        position: absolute;
+        top: 50%;
+        right: 16px;
+        transform: translate(-50%, -50%);
+    }
+    .c__button--text{
+        color: $white;
+        font-size: 16px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
 }

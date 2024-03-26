@@ -1,0 +1,52 @@
+$blue: #151a8c;
+$green: #268c15;
+$orange: #df541e;
+$pink: #e629a1;
+$white: #fff;
+
+.p__column{
+    padding-top: 110px;
+}
+
+.c__card--list{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1170px;
+    margin: 0 auto;
+    .c__thumbnail{
+        width: 270px;
+        height: 160px;
+        border-radius: 8px 8px 0 0;
+        background: #ccc;
+    }
+    .c__card--about{
+        padding: 25px 20px;
+        width: 230px;
+        background: $white;
+        font-weight: bold;
+        .c__card--date{
+            font-size: 12px;
+            padding-bottom: 25px;
+        }
+        .c__card--about-text{
+            font-size: 16px;
+            padding-bottom: 30px;
+            line-height: 1.5;
+        }
+        .c__card--tag{
+            background: $blue;
+            width: 54px;
+            height: 20px;
+            border-radius: 10px;
+            position: relative;
+            .c__card--tag-text{
+                font-size: 9px;
+                color: $white;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+            }
+        }
+    }
+}

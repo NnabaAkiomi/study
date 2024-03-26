@@ -44,6 +44,8 @@
   <link rel="stylesheet" href="src/scss/news.css">
   <link rel="stylesheet" href="src/scss/event.scss">
   <link rel="stylesheet" href="src/scss/event.css">
+  <link rel="stylesheet" href="src/scss/column.scss">
+  <link rel="stylesheet" href="src/scss/column.css">
 
   <script type="module" src="/assets/js/main.js"></script>
 </head>
@@ -82,10 +84,10 @@
     </section>
 
 <!-- 〇〇について -->
-    <section class="p__about">
+    <section class="p-about">
 
-      <h2 class="c__title--main">
-        <span class="c__title--sub"><span class="c__title-main-blue">A</span>bout</span>〇〇について   
+      <h2 class="p-about__title--main">
+        <bout class="p-about__title--sub">About</span>〇〇について   
       </h2>
 
       <p class="c__about--text">
@@ -95,7 +97,7 @@
       <div class="c__panel--img">
         <img class="c__panel--item" src="assets/images/About-image-1.jpg" alt="" width="370" height="247">
         <img class="c__panel--item" src="assets/images/About-image-2.jpg" alt="" width="370" height="247">
-        <img class="c__panel--item" src="assets/images/About-image-3.jpg" alt=""width="370" height="247">
+        <img class="c__panel--item" src="assets/images/About-image-3.jpg" alt="" width="370" height="247">
       </div>
     </section>
 
@@ -105,14 +107,13 @@
       <!-- お知らせ -->
       <div class="c__news">
 
-        <h2 class="c__title--main c__title--news">
+        <h2 class="c__title--main c__title--left">
           <span class="c__title--sub"><span class="c__title-main-blue">N</span>ews</span>お知らせ   
         </h2>
 
         <div class="c__box">
 
           <ul class="c__list">
-
             <li class="c__item">
               <span class="c__news--date">2024.01.01</span>年末年始休業日のお知らせ
             </li>
@@ -133,12 +134,17 @@
             </li>
           </ul>
         </div>
+
+        <div class="c__button">
+          <span class="c__button--text">お知らせ一覧</span>
+        </div>
+
       </div>
 
       <!-- イベント -->
       <div class="c__event">
 
-        <h2 class="c__title--main">
+        <h2 class="c__title--main c__title--left">
           <span class="c__title--sub"><span class="c__title-main-blue">E</span>vent</span>イベント   
         </h2>
 
@@ -166,6 +172,88 @@
             </li>
           </ul>
         </div>
+
+        <div class="c__button">
+          <span class="c__button--text">イベント一覧</span>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- コラム -->
+    <section class="p__column">
+
+      <h2 class="c__title--main">
+        <span class="c__title--sub"><span class="c__title-main-blue">C</span>olumn</span>コラム
+      </h2>
+
+      <!-- コラムカード -->
+      <div class="c-card">
+
+        <div class="c-card__item">
+
+          <div class="c__thumbnail">
+          </div>
+
+          <div class="c__card--about">
+            <p class="c__card--date">2024.01.01</p>
+            <p class="c__card--about-text">熊本の隠れた魅力：歴史と現代が息づく市内の名所とカフェ巡り</p>
+            <div class="c__card--tag">
+              <span class="c__card--tag-text">#タグ</span>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="c__card--item">
+
+          <div class="c__thumbnail">
+          </div>
+
+          <div class="c__card--about">
+            <p class="c__card--date">2024.01.03</p>
+            <p class="c__card--about-text">熊本市の心と魂を感じる：伝統とイノベーションが交わる街角散策</p>
+            <div class="c__card--tag">
+              <span class="c__card--tag-text c__card__tag--green">#タグB</span>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="c__card--item">
+
+          <div class="c__thumbnail">
+          </div>
+
+          <div class="c__card--about">
+            <p class="c__card--date">2024.01.05</p>
+            <p class="c__card--about-text">歴史が色づく熊本の街並み：文化遺産とモダンな生活スタイルの融合</p>
+            <div class="c__card--tag">
+              <span class="c__card--tag-text">#タグ</span>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="c__card--item">
+
+          <div class="c__thumbnail">
+          </div>
+
+          <div class="c__card--about">
+            <p class="c__card--date">2024.01.11</p>
+            <p class="c__card--about-text">熊本市の魅力を再発見：歴史的建造物から現代アートに至るまで、文化と歴史が交差する街…</p>
+            <div class="c__card--tag">
+              <span class="c__card--tag-text">#タグ</span>
+            </div>
+          </div>
+
+        </div>
+
       </div>
     </section>
   </main>

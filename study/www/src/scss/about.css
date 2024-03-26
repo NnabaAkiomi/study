@@ -1,5 +1,6 @@
 .p__about {
   padding-top: 100px;
+  max-width: 1170px auto;
 }
 .p__about .c__about--text {
   width: 770px;
@@ -12,7 +13,7 @@
   margin-bottom: 50px;
 }
 .c__title--main .c__title-main-blue {
-  color: #00f;
+  color: #151a8c;
 }
 .c__title--main .c__title--sub {
   font-size: 48px;

@@ -1,0 +1,46 @@
+.p__column {
+  padding-top: 110px;
+}
+
+.c__card--list {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.c__card--list .c__thumbnail {
+  width: 270px;
+  height: 160px;
+  border-radius: 8px 8px 0 0;
+  background: #ccc;
+}
+.c__card--list .c__card--about {
+  padding: 25px 20px;
+  width: 230px;
+  background: #fff;
+  font-weight: bold;
+}
+.c__card--list .c__card--about .c__card--date {
+  font-size: 12px;
+  padding-bottom: 25px;
+}
+.c__card--list .c__card--about .c__card--about-text {
+  font-size: 16px;
+  padding-bottom: 30px;
+  line-height: 1.5;
+}
+.c__card--list .c__card--about .c__card--tag {
+  background: #151a8c;
+  width: 54px;
+  height: 20px;
+  border-radius: 10px;
+  position: relative;
+}
+.c__card--list .c__card--about .c__card--tag .c__card--tag-text {
+  font-size: 9px;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}/*# sourceMappingURL=column.css.map */
