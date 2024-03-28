@@ -1,11 +1,11 @@
-.p__mv--bg {
+.c__mv--bg {
   position: relative;
 }
-.p__mv--bg .mv__bg--img {
+.c__mv--bg .mv__bg--img {
   width: 100%;
   height: auto;
 }
-.p__mv--bg .mv__bg--copy {
+.c__mv--bg .mv__bg--copy {
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);

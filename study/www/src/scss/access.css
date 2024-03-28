@@ -1,11 +1,11 @@
-.p-access {
+.c-access {
   padding-top: 100px;
 }
-.p-access .c-access__text {
+.c-access .c-access__text {
   text-align: center;
   font-size: 16px;
 }
-.p-access .c-access-map {
+.c-access .c-access-map {
   text-align: center;
   padding-top: 35px;
 }
