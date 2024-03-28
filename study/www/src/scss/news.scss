@@ -1,25 +1,25 @@
 $white: #fff;
 $blue: #151a8c;
 
-.p__news--event{
+.p-news__event{
     display: flex;
     max-width: 1170px;
     margin: 0 auto;
     padding-top: 110px;
 }
-.c__news{
+.c-news{
     width: 50%;
     padding-right: 40px;
 }
 
-.c__title--left{
+.c-title__left{
     text-align: left;
 }
 
 // お知らせ・イベント一覧
-.c__box{
-    .c__list{
-        .c__item{
+.c-box{
+    .c-box__list{
+        .c-box__item{
             border-top: 1px solid #dddddd;
             padding: 18px 0;
             list-style: none;
@@ -42,7 +42,7 @@ $blue: #151a8c;
 }
 
 // ボタン
-.c__button{
+.c-button{
     background: $blue;
     width: 270px;
     height: 60px;
@@ -62,9 +62,10 @@ $blue: #151a8c;
         right: 16px;
         transform: translate(-50%, -50%);
     }
-    .c__button--text{
+    .c-button__text{
         color: $white;
         font-size: 16px;
+        font-weight: bold;
         position: absolute;
         top: 50%;
         left: 50%;

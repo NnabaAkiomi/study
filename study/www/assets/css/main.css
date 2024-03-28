@@ -391,26 +391,26 @@ body {
   padding: 0;
 }
 
-.heading__inner--nav {
+.c-heading-nav {
   background: #fff;
   display: flex;
   height: 100px;
 }
-.heading__inner--nav .heading__inner--logo {
+.c-heading-nav .c-heading-nav__logo {
   display: flex;
   align-items: center;
   margin-left: 40px;
 }
-.heading__inner--nav .heading__inner--logo .fv__logo {
+.c-heading-nav .c-heading-nav__logo .fv-logo {
   width: 100%;
   height: auto;
 }
-.heading__inner--nav .heading__inner--list {
+.c-heading-nav .c-heading-nav__list {
   display: flex;
   margin: 0 0 0 auto;
   padding-right: 90px;
 }
-.heading__inner--nav .heading__inner--list .heading__inner--item {
+.c-heading-nav .c-heading-nav__list .c-heading-nav__item {
   padding: 10px 20px;
   display: flex;
   align-items: center;
@@ -426,37 +426,38 @@ body {
 }
 .p__mv--bg .mv__bg--copy {
   position: absolute;
-  left: 390px;
-  bottom: 100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  bottom: 0px;
   font-size: 50px;
   color: #fff;
   font-weight: normal;
   line-height: 90px;
 }
 
-.p__about {
+.p-about {
   padding-top: 100px;
   max-width: 1170px auto;
 }
-.p__about .c__about--text {
+.p-about .p-about__text {
   width: 770px;
   margin: 0 auto;
 }
 
-.c__title--main {
+.c-title__main {
   font-size: 30px;
   text-align: center;
   margin-bottom: 50px;
 }
-.c__title--main .c__title-main-blue {
+.c-title__main.c-title__main::first-letter {
   color: #151a8c;
 }
-.c__title--main .c__title--sub {
+.c-title__main .c-title__sub {
   font-size: 48px;
   margin-right: 40px;
 }
 
-.c__panel--img {
+.c-about__panel {
   display: flex;
   justify-content: space-between;
   padding-top: 55px;
@@ -464,29 +465,29 @@ body {
   margin: 0 auto;
 }
 
-.p__news--event {
+.p-news__event {
   display: flex;
   max-width: 1170px;
   margin: 0 auto;
   padding-top: 110px;
 }
 
-.c__news {
+.c-news {
   width: 50%;
   padding-right: 40px;
 }
 
-.c__title--left {
+.c-title__left {
   text-align: left;
 }
 
-.c__box .c__list .c__item {
+.c-box .c-box__list .c-box__item {
   border-top: 1px solid #dddddd;
   padding: 18px 0;
   list-style: none;
   position: relative;
 }
-.c__box .c__list .c__item::before {
+.c-box .c-box__list .c-box__item::before {
   content: "";
   width: 17px;
   height: 18px;
@@ -500,7 +501,7 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.c__button {
+.c-button {
   background: #151a8c;
   width: 270px;
   height: 60px;
@@ -508,7 +509,7 @@ body {
   margin: 60px auto auto auto;
   position: relative;
 }
-.c__button::before {
+.c-button::before {
   content: "";
   width: 17px;
   height: 18px;
@@ -521,15 +522,180 @@ body {
   right: 16px;
   transform: translate(-50%, -50%);
 }
-.c__button .c__button--text {
+.c-button .c-button__text {
   color: #fff;
   font-size: 16px;
+  font-weight: bold;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.c__event {
+.c-event {
   width: 50%;
+}
+
+.p-column {
+  padding: 110px 0 65px 0;
+  position: relative;
+}
+.p-column::before {
+  content: "";
+  width: 100%;
+  height: 450px;
+  background: #151a8c;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.c-card {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.c-card .c-card__thumbnail {
+  width: 270px;
+  height: 160px;
+  border-radius: 8px 8px 0 0;
+  background: #ccc;
+}
+.c-card .c-card__about {
+  padding: 25px 20px;
+  width: 230px;
+  background: #fff;
+  font-weight: bold;
+  border-radius: 0 0 8px 8px;
+}
+.c-card .c-card__about .c-card__date {
+  font-size: 12px;
+  padding-bottom: 25px;
+}
+.c-card .c-card__about .c-card__about-text {
+  font-size: 16px;
+  padding-bottom: 30px;
+  line-height: 1.5;
+}
+.c-card .c-card__about .c-card__tag {
+  background: #151a8c;
+  width: 54px;
+  height: 20px;
+  border-radius: 10px;
+  position: relative;
+}
+.c-card .c-card__about .c-card__tag .c-card__tag-text {
+  font-size: 9px;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.c-card .c-card__about .c-card__tag--green {
+  background: #268c15;
+  width: 75px;
+}
+.c-card .c-card__about .c-card__tag--orange {
+  background: #df541e;
+}
+.c-card .c-card__about .c-card__tag--pink {
+  background: #e629a1;
+}
+
+.c-button__white {
+  background: #fff;
+}
+.c-button__white.c-button__white::before {
+  background-image: url(../../assets/images/arrow-icon-blue.png);
+}
+.c-button__white .c-button__text--blue {
+  color: #151a8c;
+  font-weight: bold;
+}
+
+.p-access {
+  padding-top: 100px;
+}
+.p-access .c-access__text {
+  text-align: center;
+  font-size: 16px;
+}
+.p-access .c-access-map {
+  text-align: center;
+  padding-top: 35px;
+}
+
+.c-access-map__box {
+  width: 770px;
+  margin: 0 auto;
+  padding: 15px 0 110px 0;
+}
+.c-access-map__box .c-access-map__list {
+  display: flex;
+  padding: 10px 15px;
+  border-bottom: 1px solid #ccc;
+}
+.c-access-map__box .c-access-map__list .c-access-map__item {
+  list-style: none;
+  text-align: left;
+  font-size: 14px;
+}
+.c-access-map__box .c-access-map__list .c-access-map__item:first-child {
+  width: 30%;
+  font-weight: bold;
+}
+.c-access-map__box .c-access-map__list .c-access-map__item:nth-child(2) {
+  width: 50%;
+}
+.c-access-map__box .c-access-map__list .c-access-map__item:nth-child(3) {
+  width: 20%;
+}
+
+.c-inquiry {
+  background: linear-gradient(-46deg, rgb(0, 93, 172) 0%, rgb(21, 26, 140) 100%);
+  padding: 50px 0 60px 0;
+}
+.c-inquiry .c-inquiry__text {
+  font-weight: bold;
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+  letter-spacing: 1px;
+  padding-bottom: 43px;
+}
+
+.c-inquiry-tel__box {
+  background: #fff;
+  border-radius: 8px;
+  width: 570px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 42px 0 35px 0;
+}
+.c-inquiry-tel__box .c-inquiry-tel__number {
+  font-weight: bold;
+  color: #151a8c;
+  padding-bottom: 25px;
+}
+.c-inquiry-tel__box .c-inquiry-tel__number .c-inquiry-tel__number--secondary {
+  font-size: 20px;
+}
+.c-inquiry-tel__box .c-inquiry-tel__number .c-inquiry-tel__number--primary {
+  font-size: 30px;
+}
+.c-inquiry-tel__box .c-inquiry-tel__box-text {
+  font-size: 14px;
+}
+
+.背景 {
+  background-image: -ms-linear-gradient(-46deg, rgb(21, 26, 140) 0%, rgb(0, 93, 172) 100%);
+  position: absolute;
+  left: 0px;
+  top: 3456px;
+  width: 1350px;
+  height: 340px;
+  z-index: 21;
 }/*# sourceMappingURL=main.css.map */

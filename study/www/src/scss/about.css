@@ -1,26 +1,26 @@
-.p__about {
+.p-about {
   padding-top: 100px;
   max-width: 1170px auto;
 }
-.p__about .c__about--text {
+.p-about .p-about__text {
   width: 770px;
   margin: 0 auto;
 }
 
-.c__title--main {
+.c-title__main {
   font-size: 30px;
   text-align: center;
   margin-bottom: 50px;
 }
-.c__title--main .c__title-main-blue {
+.c-title__main.c-title__main::first-letter {
   color: #151a8c;
 }
-.c__title--main .c__title--sub {
+.c-title__main .c-title__sub {
   font-size: 48px;
   margin-right: 40px;
 }
 
-.c__panel--img {
+.c-about__panel {
   display: flex;
   justify-content: space-between;
   padding-top: 55px;

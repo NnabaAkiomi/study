@@ -4,28 +4,28 @@
 }
 
 
-.heading__inner--nav{
+.c-heading-nav{
     background: #fff;
     display: flex;
     height: 100px;
 
-    .heading__inner--logo{
+    .c-heading-nav__logo{
         display: flex;
         align-items: center;
         margin-left: 40px;
 
-        .fv__logo{
+        .fv-logo{
             width: 100%;
             height: auto;
         }
     }
 
-    .heading__inner--list{
+    .c-heading-nav__list{
         display: flex;
         margin: 0 0 0 auto;
         padding-right: 90px;
 
-        .heading__inner--item{
+        .c-heading-nav__item{
            padding: 10px 20px;
            display: flex;
            align-items: center;

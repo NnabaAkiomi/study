@@ -7,8 +7,9 @@
 }
 .p__mv--bg .mv__bg--copy {
   position: absolute;
-  left: 390px;
-  bottom: 100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  bottom: 0px;
   font-size: 50px;
   color: #fff;
   font-weight: normal;

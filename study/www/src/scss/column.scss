@@ -4,42 +4,54 @@ $orange: #df541e;
 $pink: #e629a1;
 $white: #fff;
 
-.p__column{
-    padding-top: 110px;
+.p-column{
+    padding: 110px 0 65px 0;
+    position: relative;
+    &::before{
+        content: '';
+        width: 100%;
+        height: 450px;
+        background: $blue;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+    }
 }
 
-.c__card--list{
+.c-card{
     display: flex;
     justify-content: space-between;
     max-width: 1170px;
     margin: 0 auto;
-    .c__thumbnail{
+    .c-card__thumbnail{
         width: 270px;
         height: 160px;
         border-radius: 8px 8px 0 0;
         background: #ccc;
     }
-    .c__card--about{
+    .c-card__about{
         padding: 25px 20px;
         width: 230px;
         background: $white;
         font-weight: bold;
-        .c__card--date{
+        border-radius: 0 0 8px 8px;
+        .c-card__date{
             font-size: 12px;
             padding-bottom: 25px;
         }
-        .c__card--about-text{
+        .c-card__about-text{
             font-size: 16px;
             padding-bottom: 30px;
             line-height: 1.5;
         }
-        .c__card--tag{
+        .c-card__tag{
             background: $blue;
             width: 54px;
             height: 20px;
             border-radius: 10px;
             position: relative;
-            .c__card--tag-text{
+            .c-card__tag-text{
                 font-size: 9px;
                 color: $white;
                 position: absolute;
@@ -48,5 +60,26 @@ $white: #fff;
                 transform: translate(-50%,-50%);
             }
         }
+        .c-card__tag--green{
+            background: $green;
+            width: 75px;
+        }
+        .c-card__tag--orange{
+            background: $orange;
+        }
+        .c-card__tag--pink{
+            background: $pink;
+        }
+    }
+}
+
+.c-button__white{
+    background: $white;
+    &.c-button__white::before{
+        background-image: url(../../assets/images/arrow-icon-blue.png);
+    }
+    .c-button__text--blue{
+        color: $blue;
+        font-weight: bold;
     }
 }
