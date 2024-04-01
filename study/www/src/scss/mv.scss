@@ -1,13 +1,13 @@
 $white: #fff;
 
-.c__mv--bg{
+.p-mv{
     position: relative;
-    .mv__bg--img{
+    .c-mv__img{
         width: 100%;
         height: auto;
     }
 
-    .mv__bg--copy{
+    .c-mv__copy{
         position: absolute;
         left: 50%;
         transform: translate(-50%,-50%);

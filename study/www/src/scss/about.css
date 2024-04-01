@@ -1,10 +1,11 @@
-.c-about {
+.p-about {
   padding-top: 100px;
   max-width: 1170px auto;
 }
-.c-about .p-about__text {
+.p-about__text {
   width: 770px;
   margin: 0 auto;
+  max-width: 100%;
 }
 
 .c-title__main {
@@ -12,7 +13,7 @@
   text-align: center;
   margin-bottom: 50px;
 }
-.c-title__main.c-title__main::first-letter {
+.c-title__main::first-letter {
   color: #151a8c;
 }
 .c-title__main .c-title__sub {
@@ -26,4 +27,5 @@
   padding-top: 55px;
   width: 1180px;
   margin: 0 auto;
+  max-width: 100%;
 }/*# sourceMappingURL=about.css.map */

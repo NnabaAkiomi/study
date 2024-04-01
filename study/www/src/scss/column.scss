@@ -4,9 +4,11 @@ $orange: #df541e;
 $pink: #e629a1;
 $white: #fff;
 
-.c-column{
+.p-column{
     padding: 110px 0 65px 0;
     position: relative;
+
+    // .p-column::before
     &::before{
         content: '';
         width: 100%;
@@ -24,34 +26,46 @@ $white: #fff;
     justify-content: space-between;
     max-width: 1170px;
     margin: 0 auto;
-    .c-card__thumbnail{
+    
+    // c-card__thumbnail
+    &__thumbnail{
         width: 270px;
         height: 160px;
         border-radius: 8px 8px 0 0;
         background: #ccc;
     }
-    .c-card__about{
+
+    // c-card__about
+    &__about{
         padding: 25px 20px;
         width: 230px;
         background: $white;
         font-weight: bold;
         border-radius: 0 0 8px 8px;
-        .c-card__date{
+
+        // c-card__about-date
+        &-date{
             font-size: 12px;
             padding-bottom: 25px;
         }
-        .c-card__about-text{
+
+        // c-card__about-text
+        &-text{
             font-size: 16px;
             padding-bottom: 30px;
             line-height: 1.5;
         }
-        .c-card__tag{
+        
+        // c-card__about-tag
+        &-tag{
             background: $blue;
             width: 54px;
             height: 20px;
             border-radius: 10px;
             position: relative;
-            .c-card__tag-text{
+
+            // c-card__about-tag-text
+            &-text{
                 font-size: 9px;
                 color: $white;
                 position: absolute;
@@ -59,25 +73,35 @@ $white: #fff;
                 left: 50%;
                 transform: translate(-50%,-50%);
             }
+
+            // c-card__about-tag--green
+            &--green{
+                background: $green;
+                width: 75px;
+            }
+
+            // c-card__about-tag--orange
+            &--orange{
+                background: $orange;
+            }
+
+            // c-card__about-tag--pink
+            &--pink{
+                background: $pink;
+            }
         }
-        .c-card__tag--green{
-            background: $green;
-            width: 75px;
-        }
-        .c-card__tag--orange{
-            background: $orange;
-        }
-        .c-card__tag--pink{
-            background: $pink;
-        }
+
     }
 }
 
 .c-button__white{
     background: $white;
-    &.c-button__white::before{
+
+    // c-button__white::before
+    &::before{
         background-image: url(../../assets/images/arrow-icon-blue.png);
     }
+    
     .c-button__text--blue{
         color: $blue;
         font-weight: bold;

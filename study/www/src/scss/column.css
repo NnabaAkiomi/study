@@ -1,8 +1,8 @@
-.c-column {
+.p-column {
   padding: 110px 0 65px 0;
   position: relative;
 }
-.c-column::before {
+.p-column::before {
   content: "";
   width: 100%;
   height: 450px;
@@ -19,36 +19,36 @@
   max-width: 1170px;
   margin: 0 auto;
 }
-.c-card .c-card__thumbnail {
+.c-card__thumbnail {
   width: 270px;
   height: 160px;
   border-radius: 8px 8px 0 0;
   background: #ccc;
 }
-.c-card .c-card__about {
+.c-card__about {
   padding: 25px 20px;
   width: 230px;
   background: #fff;
   font-weight: bold;
   border-radius: 0 0 8px 8px;
 }
-.c-card .c-card__about .c-card__date {
+.c-card__about-date {
   font-size: 12px;
   padding-bottom: 25px;
 }
-.c-card .c-card__about .c-card__about-text {
+.c-card__about-text {
   font-size: 16px;
   padding-bottom: 30px;
   line-height: 1.5;
 }
-.c-card .c-card__about .c-card__tag {
+.c-card__about-tag {
   background: #151a8c;
   width: 54px;
   height: 20px;
   border-radius: 10px;
   position: relative;
 }
-.c-card .c-card__about .c-card__tag .c-card__tag-text {
+.c-card__about-tag-text {
   font-size: 9px;
   color: #fff;
   position: absolute;
@@ -56,21 +56,21 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.c-card .c-card__about .c-card__tag--green {
+.c-card__about-tag--green {
   background: #268c15;
   width: 75px;
 }
-.c-card .c-card__about .c-card__tag--orange {
+.c-card__about-tag--orange {
   background: #df541e;
 }
-.c-card .c-card__about .c-card__tag--pink {
+.c-card__about-tag--pink {
   background: #e629a1;
 }
 
 .c-button__white {
   background: #fff;
 }
-.c-button__white.c-button__white::before {
+.c-button__white::before {
   background-image: url(../../assets/images/arrow-icon-blue.png);
 }
 .c-button__white .c-button__text--blue {

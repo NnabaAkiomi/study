@@ -3,28 +3,29 @@
   padding: 0;
 }
 
-.c-heading-nav {
+.c-heading__inner {
   background: #fff;
   display: flex;
   height: 100px;
 }
-.c-heading-nav .c-heading-nav__logo {
+.c-heading__inner-logo {
   display: flex;
   align-items: center;
   margin-left: 40px;
 }
-.c-heading-nav .c-heading-nav__logo .fv-logo {
+.c-heading__inner-logo .fv-logo {
   width: 100%;
   height: auto;
 }
-.c-heading-nav .c-heading-nav__list {
+.c-heading__inner-list {
   display: flex;
   margin: 0 0 0 auto;
   padding-right: 90px;
 }
-.c-heading-nav .c-heading-nav__list .c-heading-nav__item {
+.c-heading__inner-item {
   padding: 10px 20px;
   display: flex;
   align-items: center;
   font-weight: bold;
+  list-style: none;
 }/*# sourceMappingURL=header.css.map */

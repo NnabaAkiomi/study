@@ -4,12 +4,13 @@
 }
 
 
-.c-heading-nav{
+.c-heading__inner{
     background: #fff;
     display: flex;
     height: 100px;
 
-    .c-heading-nav__logo{
+    // c-heading__inner-logo
+    &-logo{
         display: flex;
         align-items: center;
         margin-left: 40px;
@@ -20,16 +21,19 @@
         }
     }
 
-    .c-heading-nav__list{
+    // c-heading__inner-list
+    &-list{
         display: flex;
         margin: 0 0 0 auto;
         padding-right: 90px;
-
-        .c-heading-nav__item{
-           padding: 10px 20px;
-           display: flex;
-           align-items: center;
-           font-weight: bold;
-        }
+    }
+    
+    // c-heading-nav__inner-item
+    &-item{
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        list-style: none;
     }
 }

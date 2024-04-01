@@ -1,4 +1,4 @@
-.c-news__event {
+.p-news-event {
   display: flex;
   max-width: 1170px;
   margin: 0 auto;
@@ -14,13 +14,13 @@
   text-align: left;
 }
 
-.c-box .c-box__list .c-box__item {
+.c-box__item {
   border-top: 1px solid #dddddd;
   padding: 18px 0;
   list-style: none;
   position: relative;
 }
-.c-box .c-box__list .c-box__item::before {
+.c-box__item::before {
   content: "";
   width: 17px;
   height: 18px;
@@ -55,7 +55,7 @@
   right: 16px;
   transform: translate(-50%, -50%);
 }
-.c-button .c-button__text {
+.c-button__text {
   color: #fff;
   font-size: 16px;
   font-weight: bold;
