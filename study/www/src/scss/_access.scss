@@ -1,0 +1,52 @@
+.c-access{
+    padding-top: 100px;
+
+    // c-access__text
+    &__text{
+        text-align: center;
+        font-size: 16px;
+    }
+
+    // c-access-map
+    &-map{
+        text-align: center;
+        padding-top: 35px;
+
+        // c-access-map__box
+        &__box{
+            width: 770px;
+            margin: 0 auto;
+            padding: 15px 0 110px 0;
+
+            .c-access-map__list{
+                display: flex;
+                padding: 10px 15px;
+                border-bottom: 1px solid #ccc;
+
+                .c-access-map__item{
+                    list-style: none;
+                    text-align: left;
+                    font-size: 14px;
+
+                    //c-access-map__item:first-child
+                    &:first-child{
+                        width: 30%;
+                        font-weight: bold;
+                    }
+
+                    //c-access-map__item:nth-child(2)
+                    &:nth-child(2){
+                        width: 50%;
+                    }
+                    
+                    //c-access-map__item:nth-child(3)
+                    &:nth-child(3){
+                        width: 20%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+

@@ -1,4 +1,29 @@
-.c-footer .c-footer-logo {
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.c-footer-logo {
   text-align: center;
   padding: 66px 0 42px 0;
+}
+.c-footer__sitemap {
+  width: 655px;
+  margin: 0 auto;
+  max-width: 100%;
+  margin-bottom: 40px;
+}
+.c-footer__sitemap-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.c-footer__small {
+  background: #333;
+  height: 30px;
+  text-align: center;
+}
+.c-footer__small-text {
+  color: #fff;
+  font-size: 12px;
 }/*# sourceMappingURL=footer.css.map */

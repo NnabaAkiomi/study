@@ -34,23 +34,23 @@
   </script>
 
   <link id="main-css" rel="stylesheet" href="/study/www/assets/css/main.css">
-  <link rel="stylesheet" href="src/scss/header.css">
   <link rel="stylesheet" href="src/scss/header.scss">
+  <link rel="stylesheet" href="src/scss/header.css">
   <link rel="stylesheet" href="src/scss/mv.scss">
-  <link rel="stylesheet" href="src/scss/mv.css">
   <link rel="stylesheet" href="src/scss/about.scss">
-  <link rel="stylesheet" href="src/scss/about.css">
   <link rel="stylesheet" href="src/scss/news.scss">
-  <link rel="stylesheet" href="src/scss/news.css">
   <link rel="stylesheet" href="src/scss/event.scss">
-  <link rel="stylesheet" href="src/scss/event.css">
   <link rel="stylesheet" href="src/scss/column.scss">
-  <link rel="stylesheet" href="src/scss/column.css">
   <link rel="stylesheet" href="src/scss/access.scss">
-  <link rel="stylesheet" href="src/scss/access.css">
   <link rel="stylesheet" href="src/scss/inquiry.scss">
-  <link rel="stylesheet" href="src/scss/inquiry.css">
   <link rel="stylesheet" href="src/scss/footer.scss">
+  <link rel="stylesheet" href="src/scss/mv.css">
+  <link rel="stylesheet" href="src/scss/about.css">
+  <link rel="stylesheet" href="src/scss/news.css">
+  <link rel="stylesheet" href="src/scss/event.css">
+  <link rel="stylesheet" href="src/scss/column.css">
+  <link rel="stylesheet" href="src/scss/access.css">
+  <link rel="stylesheet" href="src/scss/inquiry.css">
   <link rel="stylesheet" href="src/scss/footer.css">
 
   <script type="module" src="/assets/js/main.js"></script>
@@ -118,7 +118,7 @@
           <span class="c-title__sub">News</span>お知らせ   
         </h2>
 
-        <div class="c-box">
+        <article class="c-box">
 
           <ul class="c-box__list">
             <li class="c-box__item">
@@ -140,7 +140,7 @@
               <time datetime="2024-01-01" class="c-box__item--date">2024.01.01</time>年末年始休業日のお知らせ
             </li>
           </ul>
-        </div>
+        </article>
 
         <div class="c-button">
           <span class="c-button__text">お知らせ一覧</span>
@@ -155,7 +155,7 @@
           <span class="c-title__sub">Event</span>イベント   
         </h2>
 
-        <div class="c-box">
+        <article class="c-box">
 
           <ul class="c-box__list">
 
@@ -178,7 +178,7 @@
               <time datetime="2024-01-01" class="c-box__item--date">2024.01.01</time> 年末年始休業日のお知らせ
             </li>
           </ul>
-        </div>
+        </article>
 
         <div class="c-button">
           <span class="c-button__text">イベント一覧</span>
@@ -198,7 +198,7 @@
       <!-- コラムカード -->
       <div class="c-card">
 
-        <div class="c-card__item">
+        <article class="c-card__item">
 
           <div class="c-card__thumbnail">
           </div>
@@ -211,9 +211,9 @@
             </div>
           </div>
 
-        </div>
+        </article>
 
-        <div class="c-card__item">
+        <article class="c-card__item">
 
           <div class="c-card__thumbnail">
           </div>
@@ -226,9 +226,9 @@
             </div>
           </div>
 
-        </div>
+        </article>
 
-        <div class="c-card__item">
+        <article class="c-card__item">
 
           <div class="c-card__thumbnail">
           </div>
@@ -241,9 +241,9 @@
             </div>
           </div>
 
-        </div>
+        </article>
 
-        <div class="c-card__item">
+        <article class="c-card__item">
 
           <div class="c-card__thumbnail">
           </div>
@@ -256,7 +256,7 @@
             </div>
           </div>
 
-        </div>
+        </article>
 
       </div>
 
@@ -313,10 +313,10 @@
 
         <div class="c-inquiry-tel__box">
 
-          <div class="c-inquiry-tel__number">
+          <div class="c-inquiry-tel__box-number">
 
-            <span class="c-inquiry-tel__number--secondary">tel.</span>
-            <span class="c-inquiry-tel__number--primary">0000-123-456</span>
+            <span class="c-inquiry-tel__box-number--secondary">tel.</span>
+            <span class="c-inquiry-tel__box-number--primary">0000-123-456</span>
 
           </div>
 
@@ -336,16 +336,16 @@
 
     <div class="c-footer__sitemap">
       <ul class="c-footer__sitemap-list">
-        <li class="c-footer__sitemap-item">◯◯について</li>
-        <li class="c-footer__sitemap-item">お知らせ</li>
-        <li class="c-footer__sitemap-item">イベント</li>
-        <li class="c-footer__sitemap-item">交通アクセス</li>
-        <li class="c-footer__sitemap-item">お問い合わせ</li>
+        <li class="c-footer__sitemap-item"><a href="">◯◯について</a></li>
+        <li class="c-footer__sitemap-item"><a href="">お知らせ</a></li>
+        <li class="c-footer__sitemap-item"><a href="">イベント</a></li>
+        <li class="c-footer__sitemap-item"><a href="">交通アクセス</a></li>
+        <li class="c-footer__sitemap-item"><a href="">お問い合わせ</a></li>
       </ul>
     </div>
 
     <div class="c-footer__small">
-      <small>Copyright © 2024 ◯◯◯◯◯. All Rights Reserved.</small>
+      <small class="c-footer__small-text">Copyright © 2024 ◯◯◯◯◯. All Rights Reserved.</small>
     </div>
   </footer>
 </body>
