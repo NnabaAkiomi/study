@@ -1,9 +1,8 @@
-@charset "UTF-8";
 .c-inquiry {
   background: linear-gradient(-46deg, rgb(0, 93, 172) 0%, rgb(21, 26, 140) 100%);
   padding: 50px 0 60px 0;
 }
-.c-inquiry .c-inquiry__text {
+.c-inquiry__text {
   font-weight: bold;
   text-align: center;
   font-size: 24px;
@@ -13,34 +12,24 @@
 }
 
 .c-inquiry-tel__box {
-  background: #fff;
+  background: #ffffff;
   border-radius: 8px;
   width: 570px;
   text-align: center;
   margin: 0 auto;
   padding: 42px 0 35px 0;
 }
-.c-inquiry-tel__box .c-inquiry-tel__number {
+.c-inquiry-tel__box-number {
   font-weight: bold;
   color: #151a8c;
   padding-bottom: 25px;
 }
-.c-inquiry-tel__box .c-inquiry-tel__number .c-inquiry-tel__number--secondary {
+.c-inquiry-tel__box-number--secondary {
   font-size: 20px;
 }
-.c-inquiry-tel__box .c-inquiry-tel__number .c-inquiry-tel__number--primary {
+.c-inquiry-tel__box-number--primary {
   font-size: 30px;
 }
-.c-inquiry-tel__box .c-inquiry-tel__box-text {
+.c-inquiry-tel__box-text {
   font-size: 14px;
-}
-
-.背景 {
-  background-image: -ms-linear-gradient(-46deg, rgb(21, 26, 140) 0%, rgb(0, 93, 172) 100%);
-  position: absolute;
-  left: 0px;
-  top: 3456px;
-  width: 1350px;
-  height: 340px;
-  z-index: 21;
 }/*# sourceMappingURL=inquiry.css.map */
