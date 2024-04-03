@@ -6,11 +6,11 @@ $blue: #151a8c;
     background: linear-gradient( -46deg, rgb(0,93,172) 0%, rgb(21,26,140) 100%);
     padding: 50px 0 60px 0;
     
-    // 
+    // c-inquiry__text
     &__text{
         font-weight: bold;
         text-align: center;
-        font-size: 24px;
+        font-size: 54px;
         color: $white;
         letter-spacing: 1px;
         padding-bottom: 43px;
@@ -18,7 +18,7 @@ $blue: #151a8c;
 }
 
 .c-inquiry-tel__box{
-    background: #fff;
+    background: #ffffff;
     border-radius: 8px;
     width: 570px;
     text-align: center;
